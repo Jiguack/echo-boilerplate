@@ -32,12 +32,20 @@ type = "BINDATA"
 
 
 [database]
-adapter = "mysql"
-name = "echo"
-user_name = "echo"
-pwd  = "boilerplate"
-host = "database"
-port = 3306
+adapter = "postgres"
+name = "d60kc96cs2hl2r"
+user_name = "ongiczotcjtjwb"
+pwd  = "534fbf4395390cf3469a55ca39d7d53b30d65a1a71ec1949a5fca8eaed7aca02"
+host = "ec2-54-83-59-120.compute-1.amazonaws.com"
+port = 5432
+
+## LOCAL
+# adapter = "postgres"
+# name = "postgres"
+# user_name = "postgres"
+# pwd  = "12341234"
+# host = "127.0.0.1"
+
 idle_conns = 10
 open_conns = 100
 log_mode = true

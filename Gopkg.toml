@@ -24,6 +24,10 @@
 #   go-tests = true
 #   unused-packages = true
 
+[metadata.heroku]
+  go-version = "1.10.2"
+  root-package = "echo-boilerplate"
+  ensure = true
 
 [prune]
   go-tests = true
